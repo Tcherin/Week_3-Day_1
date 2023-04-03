@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+    padding: 10px
+}
+
+body > footer {
+    background-color: dodgerblue;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+body > main > article {
+    margin: auto;
+    width: 70%
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+.comment.div {
+    float: right;
+}
